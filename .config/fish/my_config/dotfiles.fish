@@ -1,0 +1,13 @@
+alias config '/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+abbr --add cc 'config'
+abbr --add cca 'config add'
+abbr --add ccc 'config commit --verbose'
+abbr --add ccd 'config diff'
+abbr --add ccds 'config diff --staged'
+abbr --add ccg 'config log --graph --pretty=format:"%C(yellow)%h%C(auto)%d %s %Cgreen%cr"'
+abbr --add ccp 'config push'
+abbr --add ccs 'config show'
+abbr --add ccsn 'config show --name-status'
+abbr --add ccst 'config status'
+abbr --add ccu 'config fetch && config pull'
