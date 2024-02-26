@@ -1,6 +1,8 @@
 tap "ankitpokhrel/jira-cli"
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/cask-versions"
+tap "homebrew/core"
 brew "pycparser"
 brew "cffi"
 brew "docutils"
